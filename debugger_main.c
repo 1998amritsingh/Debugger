@@ -4,7 +4,7 @@
 // based on language
 //
 // Examples usage:
-//      ./debugger <lang> <line number start> <line number end> <debug message>
+//      ./debugger <lang> <filename> <line number start> <line number end> <debug message>
 // Note that line numbers provided as args are inclusive.
 
 #include "c_debugger.h"
@@ -12,11 +12,11 @@
 #include <string.h>
 
 int main(int argc, char **argv) {
-    if (argc < 5) {
+    if (argc < 6) {
         printf("Incorrect usage. Valid inputs must follow the format: "
-               "./debugger <lang> <line number start> <line number end> "
-               "<debug_message>. Note that line numbers provided as arguments "
-               "are inclusive.\n");
+               "./debugger <lang> <filename> <line number start> "
+               "<line number end> <debug_message>. Note that line numbers "
+               "provided as arguments are inclusive.\n");
         return -1;
     }
 
