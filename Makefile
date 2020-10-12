@@ -6,7 +6,7 @@ OBJS_DIR = .objs
 EXE=debugger
 
 # list the object file dependencies
-OBJS_DEBUGGER=debugger_main.o c_debugger.o
+OBJS_DEBUGGER=debugger_main.o debugger.o
 
 # set up the compiler
 CC = clang
