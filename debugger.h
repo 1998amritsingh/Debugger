@@ -2,8 +2,8 @@
 
 // Common debugger implementation to perform basic file manipulation. Language
 // specific methods are called inside this function. The method functions by
-// reading the contents of <filename>, writing them to the contents of
-// <filename> to a temp file with the specified user prints, copying the 
+// reading the contents of <filename>, writing the contents of the
+// filename to a temp file with the specified user prints, copying the 
 // contents of the temp file back to the original filename to preserve any
 // filesystem metadata associated with the original file, and finally removing
 // the temp file.
