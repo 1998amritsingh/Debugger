@@ -1,7 +1,6 @@
 // Author: Amrit Singh (2020)
 // 
-// Main method for debugger that calls implementation
-// based on language
+// Main method for debugger that calls actual implementation.
 // 
 // As of now, only C is supported. Plans to support other languages
 // in the future
